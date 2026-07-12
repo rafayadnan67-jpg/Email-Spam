@@ -93,7 +93,7 @@ st.write("---")
 # 3. User Input and Prediction Area
 st.subheader("🔮 Smart Scan")
 st.write("Paste the suspicious email content below to analyze it instantly:")
-user_email = st.text_area("", placeholder="Enter email content here...", height=150)
+user_email = st.text_area("Email Content:", placeholder="Enter email content here...", height=150)
 
 if st.button("🚀 Analyze Message"):
     if user_email.strip() == "":
